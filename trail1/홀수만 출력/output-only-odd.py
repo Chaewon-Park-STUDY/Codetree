@@ -3,9 +3,10 @@
 # store+=result
 # A= int(store[0])
 # B=int(store[2])
-
-
 # 두자리 이상 넘어가면 실패
+
+
+#map을 써서 split
 A,B= map(int, input(). split())
 
 
