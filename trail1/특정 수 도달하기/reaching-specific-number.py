@@ -14,11 +14,3 @@ avg= result/len(new)
 
 print(round(avg,1), end= " ")
 
-
-
-    
-
-
-
-
-#아 최초 조건 고려안함
