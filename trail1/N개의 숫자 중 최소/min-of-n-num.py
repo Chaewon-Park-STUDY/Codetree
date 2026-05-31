@@ -2,7 +2,7 @@ n = int(input())
 a = list(map(int, input().split()))
 
 # Please write your code here.
-min=10
+min=2^31-1
 num=0
 
 for i in range(1,n):
