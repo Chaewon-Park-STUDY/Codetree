@@ -13,4 +13,3 @@ def logic(A,queries):
             total+=arr[i]
         print(total)
 logic(arr,queries)
-
