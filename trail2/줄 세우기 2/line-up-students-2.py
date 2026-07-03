@@ -6,11 +6,6 @@ students = [
 
 # Please write your code here.
 
-class Student:
-    def __init__(self, h,w,r):
-        self.h= h
-        self.w= w
-        self.r= r
 
 students.sort(key=lambda x:(x[0],-x[1]))
 
