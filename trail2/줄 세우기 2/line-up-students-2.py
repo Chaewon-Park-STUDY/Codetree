@@ -5,8 +5,6 @@ students = [
 ]
 
 # Please write your code here.
-
-
 students.sort(key=lambda x:(x[0],-x[1]))
 
 for elem in students:
