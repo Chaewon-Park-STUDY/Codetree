@@ -5,7 +5,7 @@ time = int(time)
 
 
 
-class Secret():
+class Secret:
     def __init__(self, secret_code, meeting_point, time):
         self.s= f"secret code : {secret_code}"
         self.m= f"meeting point : {meeting_point}"
