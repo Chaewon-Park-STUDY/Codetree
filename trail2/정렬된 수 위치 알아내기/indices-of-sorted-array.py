@@ -13,3 +13,4 @@ for i in range(1,n+1):
     for _ in range(n):
         if new[_][0]==i:
             print(_+1, end=" ")
+
