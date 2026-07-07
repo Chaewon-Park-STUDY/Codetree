@@ -27,6 +27,7 @@ for i in range(N):
         if x==0 and y==0:
             all_time.append(time)
             break
+
 num=0
 for elem in new:
     if elem== (0,0):
