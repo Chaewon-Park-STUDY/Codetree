@@ -11,8 +11,8 @@ def is_possible(max_val):
 
     arr_size= len(available_indices)
 
-    if 0 not in available_indices:
-        return False
+    #if 0 not in available_indices:
+        #return False
 
     for i in range(1,arr_size):
         dist=available_indices[i]-available_indices[i-1]
