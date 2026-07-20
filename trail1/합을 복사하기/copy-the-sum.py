@@ -4,4 +4,4 @@ sum_val=a+b+c
 
 a=b=c=sum_val
 
-print(a,b,c,sep=" ")
+print(a,b,c)
