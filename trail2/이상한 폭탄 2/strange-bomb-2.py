@@ -5,7 +5,6 @@ num = [int(input()) for _ in range(N)]
 
 store=[]
 
-
 def bomb(a,b,k):
     if b-a<=k:
         return True
