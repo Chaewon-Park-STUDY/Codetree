@@ -21,3 +21,5 @@ for i in range(n):
     min_value= min(min_value,sum_total)
 print(min_value)
     
+
+
