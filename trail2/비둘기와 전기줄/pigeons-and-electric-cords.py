@@ -39,8 +39,4 @@ print(total)
 
 
 
-# for elem in store:
-#     if elem[0] in num:
-#         num.pop(elem[0])
-#         arr[elem[0]]=elem[1]
-# print(arr)
+
