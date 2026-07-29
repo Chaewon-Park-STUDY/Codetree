@@ -11,5 +11,4 @@ for i in range(n-1):
         A[i+1]+=a
         dist+=a
         a=0
-        #A[i]=B[i]
 print(dist)
