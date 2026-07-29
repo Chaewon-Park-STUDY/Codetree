@@ -8,7 +8,6 @@ for _ in range(n):
 # Please write your code here.
 score=[0,0,0]
 
-rank_A,rank_B,rank_C=1,1,1
 award=[]
 award.append((0,1,2))
 
