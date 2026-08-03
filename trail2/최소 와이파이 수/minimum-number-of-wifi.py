@@ -14,3 +14,7 @@ for i in range(m,n-m):
 if any(wifi[k]==0 and arr[k]==1 for k in range(n)):
     num+=1
 print(num)
+
+
+
+
