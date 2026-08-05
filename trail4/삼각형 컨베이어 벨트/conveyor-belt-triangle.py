@@ -8,13 +8,6 @@ d = list(map(int, input().split()))
 
 arr=[]
 arr.extend(l+r+d)
-# for elem in l:
-#     arr.append(elem)
-# for elem in r:
-#     arr.append(elem)
-# for elem in d:
-#     arr.append(elem)
-
 
 store=arr.copy()
 for i in range(t):
