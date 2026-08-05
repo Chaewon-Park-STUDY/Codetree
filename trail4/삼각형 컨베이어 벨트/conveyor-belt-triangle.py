@@ -7,12 +7,13 @@ d = list(map(int, input().split()))
 # Please write your code here.
 
 arr=[]
-for elem in l:
-    arr.append(elem)
-for elem in r:
-    arr.append(elem)
-for elem in d:
-    arr.append(elem)
+arr.extend(l+r+d)
+# for elem in l:
+#     arr.append(elem)
+# for elem in r:
+#     arr.append(elem)
+# for elem in d:
+#     arr.append(elem)
 
 
 store=arr.copy()
