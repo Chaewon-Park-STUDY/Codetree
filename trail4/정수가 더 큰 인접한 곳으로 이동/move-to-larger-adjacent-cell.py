@@ -7,10 +7,7 @@ for i in range(1, n + 1):
         a[i][j] = row[j - 1]
 
 # Please write your code here.
-
-x=r
-y=c
-
+x,y=r,c
 dxs,dys=[-1,1,0,0],[0,0,-1,1] #북남서동
 
 def in_range(x,y):
@@ -37,6 +34,8 @@ while is_continue:
 
 for elem in store:
     print(elem, end=" ")
+
+    
 
 
 
