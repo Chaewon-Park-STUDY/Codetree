@@ -21,7 +21,7 @@ else:
                     arr+=new[j]
                     arr+=str(num)
                     arr+=new[j+1]
-                    arr+=str(num)
+                    arr+=str(1)
                 else:
                     for elem in new[j+1:]:
                         if elem not in store:
@@ -40,4 +40,6 @@ else:
             arr+=str(len(new))
 
         min_val=min(min_val,len(arr))
+      
     print(min_val)
+
