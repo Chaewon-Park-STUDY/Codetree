@@ -30,7 +30,7 @@ for i in range(n):
                 if arr[a][k]==0:
                     count_num+=1
             new=[]
-            for a in range(0,n):
+            for a in range(0,n-1):
                 if arr[a][k]!=0:
                     new.append(arr[a][k])
                     arr[a][k]=0
