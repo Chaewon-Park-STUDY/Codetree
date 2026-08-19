@@ -3,6 +3,8 @@ grid = [list(map(int, input().split())) for _ in range(n)]
 
 # Please write your code here.
 
+
+
 trial=0
 
 def clock(arr):
@@ -119,3 +121,4 @@ else:
         print(n)
     else:
         print(0)
+
