@@ -13,6 +13,6 @@ def repeat(N):
         return 1
     else:
         memo[N-1]=repeat(N-1)+repeat(N-2)
-        return repeat(N-1)+repeat(N-2)
-    
+    return memo[N-1]
+ 
 print(repeat(N))
