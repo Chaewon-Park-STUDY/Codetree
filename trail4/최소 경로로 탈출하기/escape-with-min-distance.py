@@ -3,6 +3,7 @@ a = [list(map(int, input().split())) for _ in range(n)]
 
 # Please write your code here.
 
+
 dxs,dys=[-1,0,1,0],[0,-1,0,1]
 
 def in_range(x,y):
@@ -63,6 +64,7 @@ if a[0][0]!=0:
         print(min(final))
     else:
         print(-1)
+
 
 
 
