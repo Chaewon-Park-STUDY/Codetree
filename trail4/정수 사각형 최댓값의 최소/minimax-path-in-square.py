@@ -11,10 +11,6 @@ for i in range(1,n):
     for j in range(1,n):
         grid[i][j]=min(max(grid[i][j],grid[i-1][j]),max(grid[i][j],grid[i][j-1]))
 
-min_val=100000000
 
-for i in range(1,n):
-    for j in range(1,n):
-        min_val=min(min_val,grid[i][j])
 
 print(grid[n-1][n-1])
