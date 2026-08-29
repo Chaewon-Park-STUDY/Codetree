@@ -13,8 +13,7 @@ def sum_val(arr):
 
 
 arr=[]
-start=1
-arr=[num[0]]
+start=0
 
 def choose(start,n):
     if len(arr)==n:
@@ -28,3 +27,4 @@ def choose(start,n):
 
 choose(start,n)
 print(min(store))
+
