@@ -11,9 +11,8 @@ def sum_val(arr):
     a=sum(arr)
     store.append(abs(a-(total-a)))
 
-
-arr=[]
-start=0
+start=1
+arr=[num[0]]
 
 def choose(start,n):
     if len(arr)==n:
@@ -27,4 +26,3 @@ def choose(start,n):
 
 choose(start,n)
 print(min(store))
-
