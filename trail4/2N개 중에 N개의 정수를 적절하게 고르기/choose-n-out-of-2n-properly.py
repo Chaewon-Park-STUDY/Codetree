@@ -13,7 +13,8 @@ def sum_val(arr):
 
 
 arr=[]
-start=0
+start=1
+arr=[num[0]]
 
 def choose(start,n):
     if len(arr)==n:
